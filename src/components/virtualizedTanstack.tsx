@@ -10,12 +10,7 @@ const VirtualTableNative = () => {
     estimateSize: () => 40,
     getScrollElement: () => parentRef.current,
   });
-  const columnVirtualizer = useVirtualizer({
-    horizontal: true,
-    count: columns.length,
-    estimateSize: () => 200,
-    getScrollElement: () => parentRef.current,
-  });
+ 
   useEffect(() => {
     fetch("http://localhost:4000/api").then(async (res) => {
       const { columnsData, rowsData } = await res.json();

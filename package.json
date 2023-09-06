@@ -12,6 +12,9 @@
   "dependencies": {
     "@astrojs/react": "^2.3.2",
     "@astrojs/tailwind": "^4.0.0",
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/modifiers": "^6.0.1",
+    "@tanstack/react-table": "^8.9.3",
     "@tanstack/react-virtual": "^3.0.0-beta.54",
     "@types/uuid": "^9.0.2",
     "astro": "^2.10.12",
